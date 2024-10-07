@@ -34,3 +34,4 @@ jobs:
         ./tools/grammar/src/main/shell/launch.sh ISO14977 --INCLUDE_LEGACY=true cypher.xml > grammar/generated/legacy/cypher.ebnf
         ./tools/grammar/src/main/shell/launch.sh Antlr4 cypher.xml > grammar/generated/Cypher.g4
         ./tools/grammar/src/main/shell/launch.sh Antlr4 --INCLUDE_LEGACY=true cypher.xml > grammar/generated/legacy/Cypher.g4  
+
